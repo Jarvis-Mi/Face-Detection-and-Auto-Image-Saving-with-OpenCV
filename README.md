@@ -1,6 +1,6 @@
 # Face-Detection-and-Auto-Image-Saving-with-OpenCV
 
-##  This project utilizes the OpenCV library for face detection and automatic image saving.
+###  *This project utilizes the OpenCV library for face detection and automatic image saving*.
 
 
 ##  How it Works:
@@ -12,18 +12,23 @@ All images are saved in JPG format in a folder with the chosen name and numbered
 
 ##  Points to Consider:
 
-[x] To use this program, OpenCV must be installed on your system.
-[x] Ensure your camera is properly configured.
-[x] Proper lighting is essential for face detection.
+-  To use this program, **OpenCV** must be installed on your system and import **os**.
+```python
+import cv2 as cv
+import os
+```
+-  Ensure your camera is properly configured.
+-  Proper lighting is essential for face detection.
 
-##How to Use:
-
-##  Run the program.
-[x] Enter your desired name for labeling and folder name.
-[x] Stand facing the camera until 500 images are captured of you.
-[x] The images will be saved in a folder with the chosen name.
+##  How to Use:
+-  Run the program.
+-  Enter your desired name for labeling and folder name.
+-  Stand facing the camera until 500 images are captured of you.
+-   he images will be saved in a folder with the chosen name.
 
 ##  Resources:
 
-https://opencv.org/
-https://stackoverflow.com/
+- [OpenCV](https://opencv.org/)
+- [StackoverFlow](https://stackoverflow.com/)
+
+
